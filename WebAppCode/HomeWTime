@@ -1,0 +1,27 @@
+
+<html>
+<body>
+  <h1>Updates from Drone Dis-Play</h1>
+  
+<div id="id01"></div>
+<!--txt file goes here--> 
+<script>
+function GetDoc(){
+  var url = "height.txt"; 
+  var xmlhttp = new XMLHttpRequest; 
+  xmlhttp.open("GET", url, false); 
+  xmlhttp.send(null); 
+  var data - xml.http.respinsetext; 
+  current.innerHTML = data; 
+ 
+}
+  function Init() {
+    GetDoc(); 
+    setInterval(GetDoc, 300); 
+  }
+  </script> 
+  <!-- Can go to body if you add title--> 
+  <p onload = "Init()"></p>
+</body>
+</html>
+
