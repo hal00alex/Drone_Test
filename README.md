@@ -1,6 +1,5 @@
-# Drone_Test
-Senior Design Testing Code
+# Drone_Test Contains
 # Contains 
-- Drone Test Drive 
-- Ultrasonic Sensing Test
-- Web App Test 
+- Drone Loop which is GPS coordinates for a circle in the ball room 
+- Demo is for MidSemster Demo of Graph from SQL displayed in Javascript
+- Web App Test is 1st semster Demo 
